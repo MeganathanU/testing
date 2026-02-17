@@ -7,7 +7,7 @@ import (
 
 func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintf(w, "Hello from Jenkins Dynamic EC2 🚀 With CI/CD..")
+		fmt.Fprintf(w, "Hello from Greens Technologies 🚀 With CI/CD..")
 	})
 	http.ListenAndServe(":8080", nil)
 }
