@@ -6,7 +6,7 @@ pipeline {
             AMI_ID         = "ami-09f708d8296de1099"
             INSTANCE_TYPE  = "t2.micro"
             KEY_NAME       = "Project2"
-            SECURITY_GROUP = "sg-07d9d3a73b6bb865e" # (Security group ID . it must allow SSH access and port 8080)
+            SECURITY_GROUP = "sg-07d9d3a73b6bb865e" 
          }
 
 triggers {
