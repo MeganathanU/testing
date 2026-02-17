@@ -5,7 +5,7 @@ pipeline {
         AWS_REGION = 'eu-west-2'
         AMI_ID = 'ami-09f708d8296de1099'          // Replace with valid AMI
         INSTANCE_TYPE = 't2.micro'
-        KEY_NAME = 'petstore'
+        KEY_NAME = 'testing'
         SECURITY_GROUP = 'sg-xxxxxxxx'
         INSTANCE_ID = ''
     }
