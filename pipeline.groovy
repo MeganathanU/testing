@@ -120,4 +120,4 @@ triggers {
                   echo "Pipeline Completed Successfully."
             }
          }
-      }
+}
