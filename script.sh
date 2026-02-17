@@ -6,8 +6,8 @@ pipeline {
         AMI_ID = 'ami-09f708d8296de1099'          // Replace with valid AMI
         INSTANCE_TYPE = 't2.micro'
         KEY_NAME = 'testing'
-        SECURITY_GROUP = 'sg-xxxxxxxx'
-        INSTANCE_ID = ''
+        SECURITY_GROUP = 'sg-07d9d3a73b6bb865e'
+        INSTANCE_ID = 'i-0f45559a5181693f6'
     }
 
     triggers {
